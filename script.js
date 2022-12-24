@@ -1,6 +1,6 @@
 let topic = document.createElement("h3")
 document.body.append(topic)
-topic.innerHTML= "This form is to be filled with original details:"
+topic.innerHTML= "This form is to be filled with original details:this is made especially for medium and small screen devices"
 
 let parent = document.createElement("form")
 document.body.append(parent)
