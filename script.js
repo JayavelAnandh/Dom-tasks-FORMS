@@ -50,7 +50,7 @@ function subfunc(a){
 }
 
 let Names = document.createElement("div")
-Names.setAttribute("class","container-md")
+Names.setAttribute("class","container")
 Names.setAttribute("id","Names")
 parent.append(Names)
 
@@ -91,7 +91,7 @@ s.append(Sname)
 
 ///////////////////////////////////////////////////////////
 let Addpin = document.createElement("div")  /////container - add&pin
-Addpin.setAttribute("class","container-md")
+Addpin.setAttribute("class","container")
 parent.append(Addpin)
 
 let row1 = document.createElement("div")/////row - add &pin
@@ -140,7 +140,7 @@ Pinbar.append(Pin1)
 
 
 let Food = document.createElement("div")///food choice bar
-Food.setAttribute("class","container-md")
+Food.setAttribute("class","container")
 parent.append(Food)
 
 let row2 = document.createElement("div")////row for food
@@ -236,7 +236,7 @@ div5.append(lbl5)
 ///////food completed
 
 let Dist_state = document.createElement("div")/////dis & state ku
-Dist_state.setAttribute("class","container-md")
+Dist_state.setAttribute("class","container")
 parent.append(Dist_state)
 
 let row3 = document.createElement("div")/////row made
@@ -273,7 +273,7 @@ Statebar.append(st1)
 
 /////////////
 let table= document.createElement("div")/////table
-table.setAttribute("class","container-md")
+table.setAttribute("class","container")
 parent.append(table)
 
 let row4 = document.createElement("div")/////row made
