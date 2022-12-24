@@ -1,6 +1,6 @@
 let topic = document.createElement("h3")
 document.body.append(topic)
-topic.innerHTML= "This form is to be filled with original details:this is made especiallyfor medium and small screen devices"
+topic.innerHTML= "This form is to be filled with original details"
 
 let parent = document.createElement("form")
 document.body.append(parent)
@@ -59,7 +59,7 @@ row.setAttribute("class","row")
 Names.append(row)
 
 let f = document.createElement("div")
-f.setAttribute("class","col-md-6")
+f.setAttribute("class","col-lg-6")
 row.append(f)
 
 let Label1 = document.createElement("label")
@@ -75,7 +75,7 @@ f.append(Fname)
 
 
 let s = document.createElement("div")
-s.setAttribute("class","col-md-6")
+s.setAttribute("class","col-lg-6")
 row.append(s)
 
 
@@ -100,11 +100,11 @@ row1.setAttribute("class","row")
 Addpin.append(row1)
 
 let Addbar = document.createElement("div")////address column
-Addbar.setAttribute("class","col-md-5")
+Addbar.setAttribute("class","col-lg-5")
 row1.append(Addbar)
 
 let Pinbar = document.createElement("div")////pincode column
-Pinbar.setAttribute("class","col-md-5")
+Pinbar.setAttribute("class","col-lg-5")
 Pinbar.setAttribute("id","pin")
 row1.append(Pinbar)
 
@@ -148,7 +148,7 @@ row2.setAttribute("class","row")
 Food.append(row2)
 
 let divheader = document.createElement("div")/////div for cboxes
-divheader.setAttribute("class","col-md-10")
+divheader.setAttribute("class","col-lg-10")
 row2.append(divheader)
 
 let divhead = document.createElement("fieldset")
@@ -207,7 +207,7 @@ let div4 = document.createElement("div")
 divhead.append(div4)
 
 let opt4 = document.createElement("input")
-opt4.setAttribute("type","checkbox")
+opt4.setAttribute("type","checkcontainer-lgbox")
 opt4.setAttribute("name","opt4")
 opt4.setAttribute("value","Mexican")
 opt4.setAttribute("id","opt4")
@@ -244,7 +244,7 @@ row3.setAttribute("class","row")
 Dist_state.append(row3)
 
 let District = document.createElement("div")
-District.setAttribute("class","col-md-6")
+District.setAttribute("class","col-lg-6")
 row3.append(District)
 
 let label4 = document.createElement("label")
@@ -258,7 +258,7 @@ dis1.setAttribute("name","dis1") ////- Name
 District.append(dis1)
 
 let Statebar = document.createElement("div")
-Statebar.setAttribute("class","col-md-6")
+Statebar.setAttribute("class","col-lg-6")
 row3.append(Statebar)
 
 let label5 = document.createElement("label")
@@ -281,7 +281,7 @@ row4.setAttribute("class","row")
 table.append(row4)
 
 let  tables = document.createElement("div")
-tables.setAttribute("class","col-md-6")
+tables.setAttribute("class","col-lg-6")
 tables.setAttribute("id","table1st")
 row4.append(tables)
 
@@ -319,7 +319,7 @@ tablerow2.append(td3)
 
 
 let  tables2 = document.createElement("div")
-tables2.setAttribute("class","col-md-6")
+tables2.setAttribute("class","col-lg-6")
 tables2.setAttribute("id","table2nd")
 row4.append(tables2)
 
