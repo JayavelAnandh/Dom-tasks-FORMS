@@ -207,7 +207,7 @@ let div4 = document.createElement("div")
 divhead.append(div4)
 
 let opt4 = document.createElement("input")
-opt4.setAttribute("type","checkcontainer-lgbox")
+opt4.setAttribute("type","checkbox")
 opt4.setAttribute("name","opt4")
 opt4.setAttribute("value","Mexican")
 opt4.setAttribute("id","opt4")
