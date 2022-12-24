@@ -1,0 +1,26 @@
+#Fname {
+    border: 1px solid;
+}
+#Sname{
+    border: 1px solid;
+}
+table,th,td{
+    border: 1px solid ;
+    padding: 3px;
+    margin: 0.5px;
+    background-color: aqua;
+}
+form{
+    margin-top: 25px;
+}
+.container-md{
+    background-color: aqua;
+    
+}
+#pin{
+    margin-top: 15px;
+}
+#table1st{
+    display: flex;
+    justify-content: flex-end;
+}
