@@ -1,6 +1,6 @@
 let topic = document.createElement("h3")
 document.body.append(topic)
-topic.innerHTML= "This form is to be filled with original details:this is made especially for medium and small screen devices"
+topic.innerHTML= "This form is to be filled with original details:this is made especiallyfor medium and small screen devices"
 
 let parent = document.createElement("form")
 document.body.append(parent)
@@ -50,7 +50,7 @@ function subfunc(a){
 }
 
 let Names = document.createElement("div")
-Names.setAttribute("class","container")
+Names.setAttribute("class","container-lg")
 Names.setAttribute("id","Names")
 parent.append(Names)
 
@@ -91,7 +91,7 @@ s.append(Sname)
 
 ///////////////////////////////////////////////////////////
 let Addpin = document.createElement("div")  /////container - add&pin
-Addpin.setAttribute("class","container")
+Addpin.setAttribute("class","container-lg")
 parent.append(Addpin)
 
 let row1 = document.createElement("div")/////row - add &pin
@@ -140,7 +140,7 @@ Pinbar.append(Pin1)
 
 
 let Food = document.createElement("div")///food choice bar
-Food.setAttribute("class","container")
+Food.setAttribute("class","container-lg")
 parent.append(Food)
 
 let row2 = document.createElement("div")////row for food
@@ -236,7 +236,7 @@ div5.append(lbl5)
 ///////food completed
 
 let Dist_state = document.createElement("div")/////dis & state ku
-Dist_state.setAttribute("class","container")
+Dist_state.setAttribute("class","container-lg")
 parent.append(Dist_state)
 
 let row3 = document.createElement("div")/////row made
@@ -273,7 +273,7 @@ Statebar.append(st1)
 
 /////////////
 let table= document.createElement("div")/////table
-table.setAttribute("class","container")
+table.setAttribute("class","container-lg")
 parent.append(table)
 
 let row4 = document.createElement("div")/////row made
